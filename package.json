@@ -1,0 +1,26 @@
+{
+  "name": "jigsaw-joy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jigsaw Joy is a relaxing daily jigsaw game where every completed puzzle becomes a collectible art card.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:playables": "tsc --noEmit && vite build --mode playables && node tools/package-playables.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "art": "node tools/generate-art.mjs",
+    "size": "node tools/report-size.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0",
+    "vitest": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

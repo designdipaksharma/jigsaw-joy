@@ -1,0 +1,35 @@
+Jigsaw Joy — Daily Puzzle
+Copyright (c) 2026 Sonu. All rights reserved.
+
+This repository (source code, original artwork in public/assets/art, generated
+promotional images, icons, logo, user-interface design, synthesised sound
+design and documentation) is the original work of the copyright holder.
+
+Public visibility of this repository (for example on GitHub) does not grant a
+licence. Except as permitted by applicable law, no part of this work may be
+copied, modified, distributed, sublicensed or used to create derivative works
+without prior written permission from the copyright holder.
+
+ORIGINALITY
+- All 32 illustrations are generated from geometric primitives by
+  tools/generate-art.mjs, which is part of this repository. No third-party
+  images, traces or references were used.
+- All sound effects are synthesised at runtime with the Web Audio API. No
+  audio files or samples are included.
+- No third-party fonts are bundled (system fonts only).
+- No code was copied from other games.
+
+THIRD-PARTY NOTICES
+- src/playables/ytgame.d.ts contains type declarations whose names and
+  signatures follow Google's official YouTube Playables SDK definitions
+  (Copyright 2024 Google LLC, Apache License 2.0,
+  https://www.apache.org/licenses/LICENSE-2.0). The SDK itself is loaded from
+  YouTube at runtime and is not redistributed here.
+- Development tooling (Vite, Vitest, TypeScript) is used under the licences
+  of those projects and is not shipped in the game bundle.
+
+"YouTube" is a trademark of Google LLC. This project is not affiliated with,
+endorsed by, or certified by Google or YouTube.
+
+If you would prefer an open-source licence (for example MIT), replace this
+file before publishing.
